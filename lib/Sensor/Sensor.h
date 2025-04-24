@@ -4,7 +4,7 @@
 
 class Sensor {   // Clase base para los sensores
     public:
-    Sensor(int pin);// Constructor
+    Sensor();// Constructor
     ~Sensor();// Destructor
     virtual void configurar() = 0; // Configura el sensor
     virtual void getValor() = 0; // Obtiene el valor del sensor
